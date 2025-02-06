@@ -1,4 +1,5 @@
 import "./App.css";
+import Carousel from "./components/Carousel/Carousel";
 import ClickablePicture from "./components/ClickablePicture/ClickablePicture";
 import CounterButton from "./components/CounterButton/CounterButton";
 import Dice from "./components/Dice/Dice";
@@ -13,6 +14,7 @@ function App() {
       <main className="main">
         <h2 className="h2">Like button!</h2>
         <LikeButton />
+        <LikeButton />
         <hr />
         <h2 className="h2">Increment number!</h2>
         <CounterButton />
@@ -24,6 +26,9 @@ function App() {
         <Dice />
         <h2 className="h2">Disco Button</h2>
         <DiscoButton/>
+        <DiscoButton/>
+        <h2 className="h2">Carousel</h2>
+        <Carousel />
       </main>
     </div>
   );

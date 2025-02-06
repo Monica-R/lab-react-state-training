@@ -16,8 +16,7 @@ function DiscoButton() {
 
   return (
     <>
-        { setPosColour() }
-        <button onClick={() => incrementNumb}>0 Likes</button>
+        <button onClick={ () => { incrementNumb(); setPosColour(); }} style={{backgroundColor: `${colorsArray[pos]}`}}>{ increment } Likes</button>
     </>
   )
 }
